@@ -18,8 +18,8 @@ const Navbar = () => {
           <Link to="/" className="hover:text-gray-400">
             Home
           </Link>
-          <Link to="/jobs" className="hover:text-gray-400">
-            Jobs
+          <Link to="/addjob" className="hover:text-gray-400">
+            Add Jobs
           </Link>
           <Link to="/my-jobs" className="hover:text-gray-400">
             My Jobs

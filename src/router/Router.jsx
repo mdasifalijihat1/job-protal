@@ -4,6 +4,8 @@ import Home from "../pages/Home";
 import Login from "../components/loginRegister/Login";
 import Register from "../components/loginRegister/Register";
 import Profile from "../pages/Profile";
+import AddJob from "../pages/AddJob";
+import Myjob from "../pages/Myjob";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -25,6 +27,14 @@ export const router = createBrowserRouter([
         {
           path:'/profile',
           element:<Profile></Profile>
+        },
+        {
+          path:'/addjob',
+          element:<AddJob></AddJob>,
+        },
+        {
+          path:'/my-jobs',
+          element:<Myjob></Myjob>
         }
     ]
   },
